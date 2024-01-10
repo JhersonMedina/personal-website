@@ -57,7 +57,7 @@ sections:
         - title: Backend Engineer
           company: Instaleap
           company_url: 'https://instaleap.io/'
-          company_logo: 
+          company_logo: instaleap
           location: Bogota, Colombia
           date_start: '2022-05-02'
           date_end: '2023-08-15'
@@ -65,10 +65,10 @@ sections:
               * Worked in distributed event-driven backend service deployed in AWS.  
               * Periodically generated over 5k automatic routes per day.  
               * Implemented Typescript concurrent algorithms in Node.js. 
-        - title: Software Engineer Inter
+        - title: Software Engineer Intern
           company: Meta
           company_url: 'https://about.meta.com/'
-          company_logo: 
+          company_logo: Meta
           location: London, UK
           date_start: '2022-01-10'
           date_end: '2022-04-02'
@@ -94,19 +94,19 @@ sections:
       items:
         - certificate_url: https://coursera.org/share/b7fe00ea6bcf57af82880d35295fc54d
           date_start: '2023-03-04'
-          icon: coursera
+          icon: ucsd
           organization: University of California, Sand Diego
           organization_url: https://ucsd.edu/
           title: Data Structures and Algorithms
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://coursera.org/share/ab801d186e1905bcadfaf1a68d823cab
           date_start: '2022-05-07'
-          icon: coursera
+          icon: rice
           organization: Rice University
           organization_url: https://www.rice.edu/
           title: Parallel, Concurrent, and Distributed Programming in Java
         - certificate_url: https://coursera.org/share/91986443f2fa4f488f9b8993c7f7adc3
           date_start: '2020-10-20'
-          icon: coursera
+          icon: ucsd
           organization: University of California, Sand Diego
           organization_url: https://ucsd.edu/
           title: Introduction to Discrete Mathematics for Computer Science
@@ -140,52 +140,54 @@ sections:
       view: compact
       columns: '2'
 
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+#  - block: portfolio
+#    id: projects
+#    content:
+#      title: Projects
+#      filters:
+#        folders:
+#          - project
+#      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+#      default_button_index: 0
+#      # Filter toolbar (optional).
+#      # Add or remove as many filters (`filter_button` instances) as you like.
+#      # To show all items, set `tag` to "*".
+#      # To filter by a specific tag, set `tag` to an existing tag name.
+#      # To remove the toolbar, delete the entire `filter_button` block.
+#    design:
+#      # Choose how many columns the section has. Valid values: '1' or '2'.
+#      columns: '2'
+#      view: showcase
+#      # For Showcase view, flip alternate rows?
+#      flip_alt_rows: false
 
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+
+#  - block: collection
+#    id: featured
+#    content:
+#      title: Featured Publications
+#      filters:
+#        folders:
+#          - publication
+#        featured_only: true
+#    design:
+#      columns: '2'
+#      view: card
+#  - block: collection
+#    content:
+#      title: Recent Publications
+#      text: |-
+#        {{% callout note %}}
+#        Quickly discover relevant content by [filtering publications](./publication/).
+#        {{% /callout %}}
+#      filters:
+#        folders:
+#          - publication
+#        exclude_featured: true
+#    design:
+#      columns: '2'
+#      view: citation
+
   - block: collection
     id: talks
     content:
@@ -201,6 +203,7 @@ sections:
       title: Popular Topics
     design:
       columns: '2'
+
   - block: contact
     id: contact
     content:
