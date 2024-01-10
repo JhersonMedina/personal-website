@@ -28,7 +28,7 @@ tags: [competitive programming]
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](tcmedellin.jpg)'
+  caption: 'Image credit: ![ima](https://drive.google.com/file/d/1lUYEnYhXv7Vjp4Dfr_XYXaNkof_mqJTn/view?usp=drive_link)'
   focal_point: Right
 
 links:
