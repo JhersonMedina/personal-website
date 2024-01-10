@@ -82,7 +82,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Licenses & certifications'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -110,6 +110,12 @@ sections:
           organization: University of California, Sand Diego
           organization_url: https://ucsd.edu/
           title: Introduction to Discrete Mathematics for Computer Science
+        - certificate_url: https://www.hackerrank.com/certificates/0220e9ea732c
+          date_start: '2020-09-15'
+          icon: hackerrank
+          organization: HackerRank
+          organization_url: https://www.hackerrank.com/
+          title: Problem Solving (Advanced) Certificate
     design:
       columns: '2'
   - block: collection
@@ -191,7 +197,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Talks & Events
       filters:
         folders:
           - event
