@@ -92,24 +92,34 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - certificate_url: https://coursera.org/share/e1863abca22b9274ec8ccb9b78a061ca
+          date_start: '2024-01-12'
+          icon: ucsd
+          organization: University of California, Sand Diego
+          organization_url: https://ucsd.edu/
+          title: Bioinformatics
+
         - certificate_url: https://coursera.org/share/b7fe00ea6bcf57af82880d35295fc54d
           date_start: '2023-03-04'
           icon: ucsd
           organization: University of California, Sand Diego
           organization_url: https://ucsd.edu/
           title: Data Structures and Algorithms
+
         - certificate_url: https://coursera.org/share/ab801d186e1905bcadfaf1a68d823cab
           date_start: '2022-05-07'
           icon: rice
           organization: Rice University
           organization_url: https://www.rice.edu/
           title: Parallel, Concurrent, and Distributed Programming in Java
+
         - certificate_url: https://coursera.org/share/91986443f2fa4f488f9b8993c7f7adc3
           date_start: '2020-10-20'
           icon: ucsd
           organization: University of California, Sand Diego
           organization_url: https://ucsd.edu/
           title: Introduction to Discrete Mathematics for Computer Science
+
         - certificate_url: https://www.hackerrank.com/certificates/0220e9ea732c
           date_start: '2020-09-15'
           icon: hackerrank
@@ -146,26 +156,26 @@ sections:
       view: compact
       columns: '2'
 
-#  - block: portfolio
-#    id: projects
-#    content:
-#      title: Projects
-#      filters:
-#        folders:
-#          - project
-#      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-#      default_button_index: 0
-#      # Filter toolbar (optional).
-#      # Add or remove as many filters (`filter_button` instances) as you like.
-#      # To show all items, set `tag` to "*".
-#      # To filter by a specific tag, set `tag` to an existing tag name.
-#      # To remove the toolbar, delete the entire `filter_button` block.
-#    design:
-#      # Choose how many columns the section has. Valid values: '1' or '2'.
-#      columns: '2'
-#      view: showcase
-#      # For Showcase view, flip alternate rows?
-#      flip_alt_rows: false
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
 
 
 #  - block: collection

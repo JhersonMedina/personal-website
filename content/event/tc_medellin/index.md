@@ -12,7 +12,7 @@ address:
   country: Colombia
 
 summary: Competitive programming traning camp in Medellín.
-abstract: I took part as an instructor at Training Camp Medellín 2023 where I gave lectures about algorithms and competitive programming. I prepared several contests throughout the event and assisted newcomer students with inquiries regarding seen topics and contest dynamics. Explained detailed algorithmic solutions for several problems, along with C++ implementation.
+abstract: I was gladly invited to participate as a lecturer at the Training Camp Medellin 2023. This was a two-week event in which I, along with other lecturers, prepared and imparted several lectures on topics regarding competitive programming; graphs, strings, and geometry, just to mention a few.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -26,10 +26,6 @@ tags: [competitive programming]
 
 # Is this a featured talk? (true/false)
 featured: false
-
-image:
-  caption: 'Image credit: ![ima](https://drive.google.com/file/d/1lUYEnYhXv7Vjp4Dfr_XYXaNkof_mqJTn/view?usp=drive_link)'
-  focal_point: Right
 
 links:
   - icon: twitter
@@ -56,3 +52,5 @@ slides: example
 projects:
   - example
 ---
+
+# The experience
